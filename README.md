@@ -6,6 +6,10 @@ This makes it easier to see on exactly which step an error occured.
 
 **This project is still unstable**. It's monkey patching turnip to get some things to work. It will be considered unstable until some patches have been integrated into Turnip.
 
+## Screenshot
+
+![Before example](https://user-images.githubusercontent.com/242972/81497557-779c7900-92e9-11ea-919f-d4d714540267.png)
+
 ## Installation
 
 Add this line to your application's Gemfile:
