@@ -4,7 +4,6 @@ require 'rspec'
 require 'turnip'
 require 'turnip/rspec'
 
-require "turnip_documentation_formatter/turnip_extension.rb"
 require "turnip_documentation_formatter/version"
 
 module Turnip

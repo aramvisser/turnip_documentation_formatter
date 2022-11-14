@@ -24,6 +24,6 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency "turnip", "~> 4.3"
+  spec.add_runtime_dependency "turnip", "~> 4.4"
   spec.add_runtime_dependency "rspec", "~> 3.10"
 end

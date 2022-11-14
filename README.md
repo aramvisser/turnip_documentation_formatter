@@ -4,8 +4,6 @@ This gem extends the default RSpec documentation formatter for [Turnip](https://
 
 This makes it easier to see on exactly which step an error occured.
 
-**This project is still unstable**. It's monkey patching turnip to get some things to work. It will be considered unstable until some patches have been integrated into Turnip.
-
 ## Screenshot
 
 ![Before example](https://user-images.githubusercontent.com/242972/81497557-779c7900-92e9-11ea-919f-d4d714540267.png)
@@ -25,6 +23,12 @@ And then execute:
 Or install it yourself as:
 
     $ gem install turnip_documentation_formatter
+    
+And require the formatter in `spec_helper.rb`:
+
+```ruby
+require "turnip_documentation_formatter"
+```
 
 ## Usage
 
